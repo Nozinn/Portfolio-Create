@@ -1,5 +1,5 @@
 import { MoveUpRight } from 'lucide-react'
-import { education, workExperience } from '../datas'
+import { education, workExperience } from './datas'
 
 export default function EducationAndWorkExperience() {
 	return (
@@ -33,7 +33,7 @@ export default function EducationAndWorkExperience() {
 						{workExperience.map(elem => (
 							<div
 								key={elem.id}
-								className='flex w-full items-center gap-3 pb-3'
+								className='flex w-full items-center gap-3 pb-3 border-b border-[#E5E5E5]	'
 							>
 								<img src={elem.icon} className='size-10' />
 								<div className='w-full'>

@@ -1,5 +1,6 @@
 import Header from './components/Header'
-import EducationAndWorkExperience from './sections/shuhrat/education work-experience/edutcation&workExperienceSection'
+import EducationAndWorkExperience from './sections/shuhrat/edutcation&workExperienceSection'
+import Testimonials from './sections/shuhrat/testimonialsSection'
 
 export default function App() {
 	return (
@@ -8,6 +9,7 @@ export default function App() {
 			{/* Shuhrat's part: */}
 			{/*  Education and Work experience */}
 			<EducationAndWorkExperience />
+			<Testimonials/>
 		</div>
 	)
 }
