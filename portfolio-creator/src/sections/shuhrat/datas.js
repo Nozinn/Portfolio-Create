@@ -4,7 +4,7 @@ import spaceFleet from '../../assets/shuhrat/icons/spaceFleet.png'
 
 export const education = [
 	{
-		id: 1,
+		key: 1,
 		universe: 'Stanford University',
 		description: 'MSc (Human Computer Interaction)',
 		years: '2013 - 2015',
@@ -44,5 +44,48 @@ export const workExperience = [
 		job: 'UI Designer',
 		icon: kingdom,
 		date: 'April 2016 - May 2017',
+	},
+]
+
+export const faq = [
+	{
+		key: 1,
+		label: 'What type of projects do you take on?',
+		children: 'here is the answer of question',
+	},
+	{
+		key: 2,
+		label: 'What type of projects do you take on?',
+		children: 'here is the answer of question',
+	},
+	{
+		key: 3,
+		label: 'What type of projects do you take on?',
+		children: 'here is the answer of label',
+	},
+	{
+		key: 4,
+		label: 'What type of projects do you take on?',
+		answer: 'here is the answer of label',
+	},
+	{
+		key: 5,
+		label: 'What type of projects do you take on?',
+		answer: 'here is the answer of label',
+	},
+	{
+		key: 6,
+		label: 'What type of projects do you take on?',
+		answer: 'here is the answer of label',
+	},
+	{
+		key: 7,
+		label: 'What type of projects do you take on?',
+		answer: 'here is the answer of label',
+	},
+	{
+		key: 8,
+		label: 'What type of projects do you take on?',
+		answer: 'here is the answer of label',
 	},
 ]
