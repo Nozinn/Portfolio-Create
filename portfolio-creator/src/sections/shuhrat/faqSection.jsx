@@ -1,4 +1,3 @@
-// import type { CollapseProps } from 'antd';
 import { Collapse } from 'antd'
 import { faq } from './datas'
 
